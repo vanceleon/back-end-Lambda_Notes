@@ -11,7 +11,7 @@ server.use(cors());
 
 //testing the server
 server.get("/", (req, res) => {
-  res.send("Hello WOrld");
+  res.send("API is running!");
 });
 
 //create new note
