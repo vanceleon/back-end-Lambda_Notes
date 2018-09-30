@@ -5,8 +5,11 @@
   "main": "index.js",
   "dependencies": {
     "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
+    "helmet": "^3.13.0",
     "knex": "^0.15.2",
+    "pg": "^7.4.3",
     "sqlite3": "^4.0.2",
     "uuid": "^3.3.2"
   },
@@ -14,7 +17,8 @@
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "start": "node index"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
